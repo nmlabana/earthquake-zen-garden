@@ -1,0 +1,111 @@
+html {
+    font-family: sans-serif;
+  }
+
+  body {
+      margin: 0;
+  }
+
+.header {
+    height: 50px;
+    background: #ededed;
+    position: relative;
+    text-align: center;
+}
+
+.header .text {
+    color: #777777;
+    font-size: 10px;
+}
+
+.header .text h1 {
+    padding-top: 12px;
+}
+
+.header .profile {
+    float: right;
+    position: absolute;
+    right: 12px; 
+    top: 13px;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    margin: 11px;
+    float: left;
+}
+
+.list-wrapper {
+    width: 100%;  
+    height: auto;
+    margin: auto;
+    text-align: center; 
+}
+
+table {
+    margin: auto;
+}
+
+ h3, .magnitude, .time { 
+    text-align: center; 
+    color: #444444;
+}
+
+
+.profile-wrapper {
+    width: 500px;
+    margin: auto;
+    display: flex;
+}
+
+.profile-wrapper .profile-left {
+   width: 97px;
+   display: inline-block;
+   font-weight: bold;
+   color: #444444;
+}
+
+.profile-wrapper .profile-right {
+   color: #777777;
+}
+
+.bio-text {
+    width: 72%;
+    float: right;
+}
+
+.profile-info {
+    margin-bottom: 10px;
+}
+
+.image-wrapper {
+    margin-right: 10px;
+}
+.image-wrapper img {
+    width: 130px;
+}
+
+.detail-wrapper {
+    width: 400px;
+    margin: auto;
+    list-style: none;
+}
+
+.detail-wrapper .row-label {
+    width: 25%;
+    display: inline-block;
+    color: #444444;
+}
+
+.detail-wrapper .row-data {
+    width: 65%;
+    color: #777777;
+}
+
+
+
+
+
+
+
